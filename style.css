@@ -1,14 +1,17 @@
+/* layout ------ */
 body {
   font-family: 'Nunito', sans-serif;
 }
-
-h1 {
+h1,h2 {
   text-align: center;
+}
+
+h1  {
   font-size: 200%;
 }
 
 h2 {
-  text-align: center;
+ 
   font-weight: 100;
   font-size: 110%;
 }
@@ -29,9 +32,12 @@ nav li {
   text-decoration: underline;
 }
 
-.blue-button {
+
+/* blocks ------ */
+
+.tour-button,.signup-form_submit  {
   background-color: blue;
-  text-decoration: none !important;
+  text-decoration: none ;
   color: white;
   padding: 0.5em;
   border-radius: 6px;
@@ -40,14 +46,15 @@ nav li {
   display: inline-block;
 } 
 
-.signup-form form input[type=submit] {
-  border: none;
-  background-color: blue;
-  text-decoration: none !important;
-  color: white;
-  padding: 0.5em;
-  border-radius: 6px;
-  width: 8em;
-  text-align: center;
-  display: inline-block;
+.signup{
+  text-align: center; 
 }
+.signup_form{
+  padding: 20px;
+}
+/* .signup-form_name {} */
+
+.signup-form_email, .signup-form_phone {
+  width: 54%;
+}
+
