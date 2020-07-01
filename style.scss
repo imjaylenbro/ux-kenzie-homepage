@@ -1,16 +1,16 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
-
-h1, h2 {
+h1,h2 {
   text-align: center;
 }
 
-h1 {
+h1  {
   font-size: 200%;
 }
 
 h2 {
+ 
   font-weight: 100;
   font-size: 110%;
 }
@@ -19,6 +19,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+
 }
 
 nav li {
@@ -27,28 +28,30 @@ nav li {
   text-decoration: underline;
 }
 
+
 /* blocks ------ */
-.tour-button, .signup-form_submit {
+
+.tour-button,.signup-form_submit  {
   background-color: blue;
-  text-decoration: none;
+  text-decoration: none ;
   color: white;
   padding: 0.5em;
   border-radius: 6px;
   width: 8em;
   text-align: center;
   display: inline-block;
-}
-
+} 
 .hero_video {
-  align-items: center;
+  align-items: center;;
 }
 
-.signup {
-  text-align: center;
+.signup{
+  text-align: center; 
 }
+
+
 
 .signup-form_email, .signup-form_phone {
   margin: .3em;
   width: 19rem;
 }
-/*# sourceMappingURL=style.css.map */
