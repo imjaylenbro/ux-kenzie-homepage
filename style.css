@@ -39,12 +39,9 @@ nav li {
   display: inline-block;
 }
 
-.hero_video {
-  align-items: center;
-}
-
-.signup {
+.signup, .hero_video {
   text-align: center;
+  width: 100%;
 }
 
 .signup-form_email, .signup-form_phone {
